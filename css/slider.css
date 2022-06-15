@@ -1,0 +1,139 @@
+:root {
+    --black: #000;
+    --whait: #fff;
+    --orenge: rgb(199, 166, 84);
+    --transition_03: all 0.3s ease;
+    --content_font-size: 14px;
+    --stroca_width: 1200px;
+    --stroca-margin: 0 auto;
+    --continer__1_line-h: 2px;
+    --roboto: 'Montserrat', sans-serif, 'Roboto', sans-serif;
+}
+
+
+
+/* blue  */
+
+
+[data-wrapper="blue"]  .stroca_1 {
+    background-image: url(../images/blue-fon.png);
+}
+
+
+[data-wrapper="blue"]  .continer__1_line {
+    background-color: rgb(255, 255, 255);
+}
+
+[data-wrapper="blue"]  .sroca_1__bar button {
+    border: solid #fff 1px;
+    color: var(--orenge);
+}
+
+
+[data-wrapper="blue"]  .header {
+    background-color: rgb(1 11 30 / 69%);
+}
+
+.slider_table__block__text-active {
+    font-size: 35px;
+    -webkit-text-stroke: none;
+    color: #fff;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+/* pink */
+
+
+[data-wrapper="pink"]  .stroca_1 {
+    background-image: url(../images/pirple-fon.png);
+}
+
+
+[data-wrapper="pink"]  .continer__1_line {
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+[data-wrapper="pink"]  .sroca_1__bar button {
+    border: solid #fff 1px;
+    color: var(--orenge);
+}
+
+
+[data-wrapper="pink"]  .header {
+    background-color: rgba(58, 2, 15, 0.664);
+    ;
+}
+
+
+/* coffe */
+
+[data-wrapper="coffe"]  .stroca_1 {
+    background-image: url(../images/coffe-fon.png);
+}
+
+
+[data-wrapper="coffe"]  .continer__1_line {
+    background-color: var(--orenge);
+}
+
+[data-wrapper="coffe"]  .sroca_1__bar button {
+    border: solid var(--orenge) 1px;
+    color: var(--orenge);
+}
+
+
+[data-wrapper="coffe"]  .header {
+    background-color: rgba(68, 26, 6, 0.664);
+}
+
+
+/* oreng */
+
+
+[data-wrapper="orenge"]  .stroca_1 {
+    background-image: url(../images/oreng-fon.png);
+}
+
+
+[data-wrapper="orenge"]  .continer__1_line {
+    background-color: var(--orenge);
+}
+
+[data-wrapper="orenge"]  .sroca_1__bar button {
+    border: solid #fff 1px;
+    color: var(--orenge);
+}
+
+
+[data-wrapper="orenge"]  .header {
+    background-color: rgba(68, 26, 6, 0.664);
+}
+
+
+
+/* light-blue */
+
+[data-wrapper="light-blue"]  .stroca_1 {
+    background-image: url(../images/light-blue-fon.png);
+}
+
+
+[data-wrapper="light-blue"]  .continer__1_line {
+    background-color: #ffff;
+}
+
+[data-wrapper="light-blue"]  .sroca_1__bar button {
+    border: solid #fff 1px;
+    color: var(--orenge);
+}
+
+
+[data-wrapper="light-blue"] .header {
+    background-color: rgb(0 71 153 / 46%);
+}
+
+[data-wrapper="light-blue"] .nav__icons{
+    color: #fff;
+}

@@ -1,0 +1,85 @@
+:root{
+    --whait: #fff;
+    --content-color:#000;
+    --text-color:#000;
+    --transition_03: all 0.3s ease;
+    --content_font-size: 14px;
+    --stroca_width:1200px;
+    --stroca-margin:0 auto;
+}
+
+
+.slider_table__block__text:hover{
+    color: #fff;
+}
+
+
+.sroca_1__bar__btn{
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+.sroca_1__bar__btn::after{
+    content: 'смотреть все'; 
+    position: absolute; 
+    width: 100%; 
+    transform: scaleX(0); 
+    height: 100%; 
+    bottom: 0; 
+    left: 0; 
+    background-color: rgb(255, 255, 255); 
+    transform-origin: bottom right; 
+    transition: transform 0.25s ease-out; 
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.sroca_1__bar__btn:hover::after{
+    transform: scaleX(1); 
+    transform-origin: bottom left; 
+}
+
+
+.box__for__animation{
+    top: -100px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 1200px;
+    overflow: hidden;
+}
+
+.box__for__animation__img{
+    width:  600px;
+    height: 1200px;
+    position: absolute;
+    transform: rotate(15deg);
+    z-index: 11;
+    transition: all 1.2s ease;
+    left: -450px;
+
+}
+[data-blick="1"]{
+    left: 100%;
+}
+
+[data-blick="2"]{
+    left: -300px;
+}
+
+[data-blick="3"]{
+    left: 100%;
+}
+
+[data-blick="4"]{
+    left: -300px;
+}
+[data-blick="5"]{
+    left: 100%;
+}
+[data-blick="6"]{
+    left: -350px;
+}

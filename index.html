@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome//////////////////////////////////////////// -->
+    <script
+      src="https://kit.fontawesome.com/58a9a0347e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- fontawesome//////////////////////////////////////////// -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- react /////////////////////////////////-->
+    <script src="https://nicepage.com/templates/preview/starbucks-coffee-17223?device=desktop"></script>
+    <script src="https://nicepage.com/templates/preview/making-a-difference-for-food-22562?device=desktop"></script>
+    <script src="https://nicepage.com/templates/preview/fresh-tasty-23125?device=desktop"></script>
+    <!-- react /////////////////////////////////-->
+
+    <!-- model-viewer ////////////////////////// -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <!-- model-viewer ////////////////////////// -->
+
+    <!-- gsap/////////////////////////////////// -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
+    <!-- gsap/////////////////////////////////// -->
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/hover.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="wrapper" data-wrapper="">
+      <div class="box__for__animation">
+        <img class="box__for__animation__img" src="./images/blik.png" data-blick=""/>
+      </div>
+      <header class="header">
+        <nav class="nav">
+          <div class="nav__logo">
+            <img src="./images/nav_logo__2.png" alt="" />
+          </div>
+          <div class="nav__link">
+            <a href="" class="nav_color">
+              <li class="nav__link__li">
+                <a class="nav__link__li__a nav__link__li__a-active" href=""
+                  >главное</a
+                >
+              </li> </a
+            ><a href="" class="nav_color">
+              <li class="nav__link__li">
+                <a class="nav__link__li__a" href="#stroca_3">продукт</a>
+              </li> </a
+            ><a href="" class="nav_color">
+              <li class="nav__link__li">
+                <a class="nav__link__li__a" href="">о нас</a>
+              </li> </a
+            ><a href="" class="nav_color">
+              <li class="nav__link__li">
+                <a class="nav__link__li__a" href="">контакты</a>
+              </li>
+            </a>
+          </div>
+          <div class="nav__icons">
+            <li class="nav__icon nav__icon__1">
+              <i class="fa-brands fa-facebook-f"></i>
+            </li>
+            <li class="nav__icon nav__icon__2">
+              <i class="fa-brands fa-instagram"></i>
+            </li>
+            <li class="nav__icon nav__icon__3">
+              <i class="fa-brands fa-youtube"></i>
+            </li>
+          </div>
+        </nav>
+      </header>
+
+      <div class="header__px">
+
+        <div class="px__nav">
+          <div class="px__logo"><img src="./images/nav_logo.png" alt=""></div>
+          <div class="px__offcanvas">
+            <div id="menu">
+              <div class="top-bar"></div>
+              <svg width="84" height="84" viewBox="0 0 84 84"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path class="mid-bar" fill="none" stroke-width="2px"  stroke-miterlimit="10" d="M22,42h40
+                                                                                         c5,0, 20, -10, 14.641,-20
+                                                                                         A40,40, 0 0 0 42 2 
+                                                                                         A40,40, 0 0 0 2 42	
+                                                                                         A40 40 0 0 0 42 82
+                                                                                         A40 40 0 0 0 82 42
+                                                                                         A40 40 0 0 0 42 2
+                                                                                         A40 40 0 0 0 2 42			
+                                                                                  "/>
+              </svg>
+              <div class="btm-bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="px__content">
+          <div class="px__left">
+            <div class="px__left__block">
+              <a href="" class="px__left__link__a">
+                <li class="px__left__link">главное</li>
+              </a>
+              <a href="" class="px__left__link__a">
+                <li class="px__left__link">о нас</li>
+              </a>
+              <a href="" class="px__left__link__a">
+                <li class="px__left__link">продукты</li>
+              </a>
+              <a href="" class="px__left__link__a">
+                <li class="px__left__link">контакты</li>
+              </a>
+            </div>
+          </div>
+          <div class="px__right">
+            <div class="px__right__block">
+              <a href="">
+                <li class="px__right__link">facebook<i class="fa-brands fa-facebook-f px__right__link__icon"></i></li>
+              </a><a href="">
+                <li class="px__right__link">instagram<i class="fa-brands fa-instagram px__right__link__icon"></i></li>
+              </a><a href="">
+                <li class="px__right__link">youtube<i class="fa-brands fa-youtube px__right__link__icon"></i></li>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="cntent">
+        <section class="stroca_1">
+          <img class="continer__fon" src="./images/continer__fon.svg" alt="" />
+          <div class="stroca_1__continer continer__1 continer__1__original">
+            <div class="continer_line__wrapper-">
+              <div class="continer_line__wrapper">
+                <div class="continer__1_line continer__1_line1"></div>
+                <div class="continer__1_line continer__1_line2"></div>
+              </div>
+            </div>
+
+            <div class="stroca_1__wrapper">
+              <div class="stroca_1__slider__content">
+                <div class="stroca_1_content__text">
+                  <i
+                    ><p>
+                      энергетический <br />
+                      напиток нитро <br />
+                      зарядись <br />
+                      настроением
+                    </p></i
+                  >
+                </div>
+                <div class="slider_content__table">
+                  <div class="slider_content__table__lines_">
+                    <div class="slider_content__table__lines">
+                      <div
+                        class="slider__table__line slider__table__line1"
+                      ></div>
+                      <div
+                        class="slider__table__line slider__table__line2"
+                      ></div>
+                      <div
+                        class="slider__table__line slider__table__line3"
+                      ></div>
+                      <div
+                        class="slider__table__line slider__table__line4"
+                      ></div>
+                      <div
+                        class="slider__table__line slider__table__line5"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div class="slider_table__block slider_table__block1">
+                    <div
+                      class="slider_table__block__box slider_table__block__box1"
+                    ></div>
+                    <div
+                      class="slider_table__block__text slider_table__block__text1"
+                    >
+                      <p
+                        class="slider_table__block__text slider_table__block__text-active slider_table__block__text_1"
+                      >
+                        название типа
+                      </p>
+                    </div>
+                  </div>
+                  <div class="slider_table__block slider_table__block2">
+                    <div
+                      class="slider_table__block__box slider_table__block__box2"
+                    ></div>
+                    <div
+                      class="slider_table__block__text slider_table__block__text2"
+                    >
+                      <p
+                        class="slider_table__block__text slider_table__block__text_2"
+                      >
+                        название типа
+                      </p>
+                    </div>
+                  </div>
+                  <div class="slider_table__block slider_table__block3">
+                    <div
+                      class="slider_table__block__box slider_table__block__box3"
+                    ></div>
+                    <div
+                      class="slider_table__block__text slider_table__block__text3"
+                    >
+                      <p
+                        class="slider_table__block__text slider_table__block__text_3"
+                      >
+                        название типа
+                      </p>
+                    </div>
+                  </div>
+                  <div class="slider_table__block slider_table__block4">
+                    <div
+                      class="slider_table__block__box slider_table__block__box4"
+                    ></div>
+                    <div
+                      class="slider_table__block__text slider_table__block__text4"
+                    >
+                      <p
+                        class="slider_table__block__text slider_table__block__text_4"
+                      >
+                        название типа
+                      </p>
+                    </div>
+                  </div>
+                  <div class="slider_table__block slider_table__block5">
+                    <div
+                      class="slider_table__block__box slider_table__block__box5"
+                    ></div>
+                    <div
+                      class="slider_table__block__text slider_table__block__text5"
+                    >
+                      <p
+                        class="slider_table__block__text slider_table__block__text_5"
+                      >
+                        название типа
+                      </p>
+                    </div>
+                  </div>
+                  <div class="slider_table__block slider_table__block6">
+                    <div
+                      class="slider_table__block__box slider_table__block__box6"
+                    ></div>
+                    <div
+                      class="slider_table__block__text slider_table__block__text6"
+                    >
+                      <p
+                        class="slider_table__block__text slider_table__block__text_6"
+                      >
+                        название типа
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="stroca_1__3d__content">
+                <model-viewer
+                  class="stroca_1__3d__content_model stroca_1__3d__content_model-dark"
+                  bounds="tight"
+                  src="./3d/dark.glb"
+                  ar
+                  ar-modes="scene-viewer webxr quick-look"
+                  disable-zoom
+                  camera-controls
+                  poster="./images/poster.png"
+                  shadow-intensity="0"
+                  environment-image="neutral"
+                  exposure="1"
+                  shadow-softness="0"
+                  camera-orbit="110deg 100deg auto"
+                  min-camera-orbit="auto 30deg auto"
+                  min-field-of-view="30deg"
+                  max-camera-orbit="180 134deg auto"
+                  auto-rotate
+                  zoom-disable
+                >
+                </model-viewer>
+              </div>
+            </div>
+            <div class="sroca_1__bar">
+              <button class="sroca_1__bar__btn">смотреть все</button>
+            </div>
+          </div>
+        </section>
+
+       
+
+        <section class="sostaw__wrappwer">
+          <div class="sostaw__content">
+            <div class="sostaw__content__lines__w">
+              <div class="sostaw__content__lines">
+                <div class="sostaw__content__line sostaw__content__line1"></div>
+                <div class="sostaw__content__line sostaw__content__line2"></div>
+                <div class="sostaw__content__line sostaw__content__line3"></div>
+                <div class="sostaw__content__line sostaw__content__line4"></div>
+                <div class="sostaw__content__line_text sostaw__content__line5">
+                    <span>15%</span>
+                  <p>кофеина</p>
+                </div>
+                <div class="sostaw__content__line_text sostaw__content__line6">
+                    <span>15%</span>
+                  <p>кофеина</p>
+                </div>
+                <div class="sostaw__content__line_text sostaw__content__line7">
+                    <span>15%</span>
+                  <p>кофеина</p>
+                </div>
+                <div class="sostaw__content__line_text sostaw__content__line8">
+                    <span>15%</span>
+                  <p>кофеина</p>
+                </div>
+                <div class="sostaw__content__line_text sostaw__content__line9">
+                    <span>15%</span>
+                  <p>кофеина</p>
+                </div>
+                <div class="sostaw__content__line sostaw__content__line10"></div>
+                <div class="sostaw__content__line__croog"></div>
+              </div>
+            </div>
+
+            <div class="sostaw__content__img">
+              <img class="sostaw__content__img__img" src="./images/sostaw__content__img.png" alt="" />
+            </div>
+          </div>
+        </section> 
+        <section class="stroca_3"  id="stroca_3">
+          <div class="footer__header">
+            <span>Продукты</span><div class="header__line__box footer__header__box"></div>
+          </div>
+
+          <div class="stroca_3__content">
+            <div class="produkt produkt_1"><img src="./images/product/dark.png" alt="" class="produkt_img_1"><span>Nitro Green Energy</span></div>
+            <div class="produkt produkt_2"><img src="./images/product/blue.png" alt="" class="produkt_img_2"><span>Nitro Max</span></div>
+            <div class="produkt produkt_3"><img src="./images/product/coffe.png" alt="" class="produkt_img_3"><span>Nitro Coffee Energy</span></div>
+            <div class="produkt produkt_4"><img src="./images/product/orenge.png" alt="" class="produkt_img_4"><span>Nitro Exotic Energy</span></div>
+            <div class="produkt produkt_5"><img src="./images/product/pink.png" alt="" class="produkt_img_5"><span>Nitro Juiced Energy</span></div>
+            <div class="produkt produkt_6"><img src="./images/product/light-blue.png" alt="" class="produkt_img_6"><span>Nitro Zero 0%</span></div>
+          </div>
+        </section>
+      </div> 
+    </div>
+    <div class="footer-">
+      <div class="footer__header">
+        <span>Контакты</span><div class="header__line__box footer__header__box"></div>
+      </div>
+       <footer>
+      <div class="footer__left">
+        <div class="footer__block footer__block__1">
+          <a href=""><li>главное</li></a>
+          <a href=""><li>продукт</li></a>
+          <a href=""><li>о нас</li></a>
+          <a href=""><li>контакты</li></a>
+        </div>
+        <div class="footer__block footer__block__2">
+          <p><i class="fa-solid fa-location-dot"></i> Кыргызская Республика город Кант, <br> улица Московская, 7</p>
+          <p><i class="fa-solid fa-phone"></i> Телефоны: <br>+996 3132 5 56 19</p>
+          <p><i class="fa-solid fa-envelope"></i>E-mai <br>abdyshata.m@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer__right">
+          <input type="text" placeholder="Выведите имя">
+          <input type="text" placeholder="Выаедите эл.адрес или тел">
+          <textarea placeholder="Напишите вашы собшение"></textarea>
+          <input id="footer-submit" type="submit" placeholder="Отправить">
+      </div>
+   
+    </footer>
+    <div class="footer__bar">2022© <br>
+      <img src="./images/ssb-logo.png" alt=""><a href="">сайт разработан компани 'ssb.kg'</a></div>
+    </div> 
+
+
+
+    
+    <script src="./js/app.js"></script>
+    <script src="./js/gsap.js"></script>
+  </body>
+</html>
+
+<!-- animate__animated -->

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400");
+
+#menu {
+  margin: 150px auto;
+  display: block;
+  width: 84px;
+  height: 84px;
+  box-sizing: content-box;
+  cursor: pointer;
+  position: relative;
+}
+#menu.open .top-bar {
+  transform-origin: 40px;
+  transform: translateX(-4px) rotate(-45deg);
+  transition: all 0.75s cubic-bezier(1, -1.5, 0.5, 2);
+}
+#menu.open .btm-bar {
+  transform-origin: 40px;
+  transform: translateX(-4px) rotate(45deg);
+  transition: all 0.75s cubic-bezier(1, -1.5, 0.5, 2);
+}
+#menu.open .mid-bar {
+  stroke-dasharray: 0 120 251 251;
+  stroke-dashoffset: 1;
+}
+
+.top-bar, .btm-bar {
+  position: absolute;
+  width: 43px;
+  height: 2px;
+  background: white;
+  left: 20px;
+  top: 27px;
+  border-radius: 10px;
+  transition: all 500ms cubic-bezier(1, -1, 0.5, 2);
+}
+
+.btm-bar {
+  top: 53px;
+}
+
+.mid-bar {
+  stroke-linecap: round;
+  stroke: #fff;
+  stroke-dasharray: 0 100 40 400;
+  stroke-dashoffset: 101;
+  transition: all 750ms ease;
+}
+
